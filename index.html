@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini app</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="formulario">
+        <h1>Mini aplicación de bienvenida</h1>
+
+        <p>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" />
+        </p>
+        <p>
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" />
+        </p>
+        <input type="submit" value="Enviar" />
+        <p id="mensaje"></p>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

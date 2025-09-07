@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Fondo y centrado de todo */
+body {
+  background: linear-gradient(135deg, hsl(130, 85%, 43%), hsl(219, 100%, 3%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Contenedor */
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Formulario */
+form {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Título alineado a la izquierda */
+h1 {
+  text-align: left;
+  margin-bottom: 25px;
+  color: #333333;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* Labels e inputs */
+p {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555555;
+  font-weight: 500;
+}
+
+input[type='text'],
+input[type='number'] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input[type='text']:focus,
+input[type='number']:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+  outline: none;
+}
+
+input[type='submit'] {
+  width: 100%;
+  padding: 14px;
+  background: #6a11cb;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+input[type='submit']:hover {
+  background: #2575fc;
+  transform: translateY(-2px);
+}
+
+/* Mensaje debajo del botón */
+#mensaje {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  color: #dbaa09;
+}
